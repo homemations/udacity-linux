@@ -97,3 +97,9 @@ The IP address of the server instance is 18.130.226.71 and SSH setup on port 220
 * Add user 'grader' with rights to run sudo
 * Setup WSGI and changed catalog.py to catalog.wsgi with changes to this file to support integration
 * Added catalog.conf for the Apache configuration with /etc/apache2/available-sites
+
+## List of 3rd party resources used:
+* [SQLAlchemy](http://www.sqlalchemy.org/) 0.8.4 or higher (a Python SQL toolkit)
+* [Flask](http://flask.pocoo.org/) 0.10.1 or higher (a web development microframework)
+* [Apache] (https://httpd.apache.org/) 2.4.37 or higher (WEB/APP Server)
+* [WSGI] (apt-get install libapache2-mod-wsgi) Supports Apache web integration with Python scripts
